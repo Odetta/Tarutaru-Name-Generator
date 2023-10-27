@@ -4,54 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/tarustyle.css">
     <script src="taru.js" defer></script>
 </head>
-<style>
-    .wrapper {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 99%;
-        background-image: url("images/windurst.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .femaleName {
-
-        height: 100px;
-        width: 300px;
-        background-color:#f7f6c5;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding: 10px;
-        margin-left: 20%;
-        margin-top: 5%;
-    }
-    .maleName {
-
-        height: 100px;
-        width: 300px;
-        background-color:#f7f6c5;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding: 10px;
-        margin-left: 30%;
-        margin-top: 5%;
-    }
-    p {
-        text-align: center;
-    }
-    button {
-        margin-left: 20px;
-    }
-    h1 {
-        width: 100%;
-        color: #f7f6c5;
-        text-align: center;
-        font-size: xx-large;
-    }
-</style>
-<body class="wrapper">
+<body>
+    <div class="wrapper">
     <h1>Tarutaru Name Generator</h1>
     <div class="femaleName">
         <p>Tarutaru Female Name Generator</p>
@@ -62,6 +19,7 @@
         <p>Tarutaru Male Name Generator</p>
         <button onclick="generateName4()">Click to generate name!</button>
         <span class="taruMaleName"></span><span class="taruMaleName2"></span><span class="hyphen"></span><span class="taruMaleName3"></span><span class="taruMaleName4"></span>
+    </div>
     </div>
 </body>
 </html>
