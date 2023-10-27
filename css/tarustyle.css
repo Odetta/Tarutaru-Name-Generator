@@ -12,31 +12,34 @@
     height: 100px;
     width: 300px;
     background-color:#f7f6c5;
+    font-family: Helvetica, sans-serif;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 10px;
     margin-left: 20%;
-    margin-top: -15%;
+    margin-top: -20%;
 }
 .maleName {
     height: 100px;
     width: 300px;
     background-color:#f7f6c5;
+    font-family: Helvetica, sans-serif;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 10px;
     margin-left: 27%;
-    margin-top: -15%;
+    margin-top: -20%;
 }
 p {
     text-align: center;
 }
 button {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 h1 {
     width: 100%;
     color: #f7f6c5;
+    font-family: Helvetica, sans-serif;
     text-align: center;
     font-size: xx-large;
 }
@@ -46,7 +49,132 @@ h1 {
 .taruMaleName {
     text-transform: capitalize;
 }
+.textlink {
+    width: 100%;
+    color: #f7f6c5;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: small;
+    margin-top: -15%;
+}
+a:link {
+    color: #f7f6c5;
+}
+a:visited {
+    color: #f7f6c5;
+}
+@media all and (max-width: 1700px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 900px;
+    }
+    .femaleName {
+        height: 100px;
+        width: 300px;
+        background-color:#f7f6c5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .maleName {
+        height: 100px;
+        width: 300px;
+        background-color:#f7f6c5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 60%;
+        margin-top: -7%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: 0%;
+    }
+}
+@media all and (max-width: 1600px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 900px;
+    }
+    .femaleName {
+        height: 100px;
+        width: 300px;
+        background-color:#f7f6c5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .maleName {
+        height: 100px;
+        width: 300px;
+        background-color:#f7f6c5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 60%;
+        margin-top: -7%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: 0%;
+    }
+}
 @media all and (max-width: 1500px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 900px;
+    }
+    .femaleName {
+        height: 100px;
+        width: 300px;
+        background-color:#f7f6c5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .maleName {
+        height: 100px;
+        width: 300px;
+        background-color:#f7f6c5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 60%;
+        margin-top: -7%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: 0%;
+    }
+}
+@media all and (max-width: 1400px) {
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -73,6 +201,14 @@ h1 {
         padding: 10px;
         margin-left: 60%;
         margin-top: -7%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: 1%;
     }
 }
 @media all and (max-width: 1280px) {
@@ -102,6 +238,14 @@ h1 {
         padding: 10px;
         margin-left: 55%;
         margin-top: -8%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: -2%;
     }
 }
 @media all and (max-width: 1200px) {
@@ -161,6 +305,14 @@ h1 {
         margin-left: 55%;
         margin-top: -10%;
     }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: -2%;
+    }
 }
 @media all and (max-width: 912px) {
     .wrapper {
@@ -189,6 +341,14 @@ h1 {
         padding: 10px;
         margin-left: 58%;
         margin-top: -11%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: -2%;
     }
 }
 @media all and (max-width: 900px) {
@@ -247,6 +407,14 @@ h1 {
         padding: 10px;
         margin-left: 55%;
         margin-top: -12.5%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: -2%;
     }
 }
 @media all and (max-width: 768px) {
@@ -393,6 +561,14 @@ h1 {
         margin-left: 15%;
         margin-top: 5%;
     }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: -5%;
+    }
 }
 @media all and (max-width: 400px) {
     .wrapper {
@@ -421,6 +597,14 @@ h1 {
         padding: 10px;
         margin-left: 10%;
         margin-top: 5%;
+    }
+    .textlink {
+        width: 100%;
+        color: #f7f6c5;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        margin-top: -5%;
     }
 }
 @media all and (max-width: 360px) {
